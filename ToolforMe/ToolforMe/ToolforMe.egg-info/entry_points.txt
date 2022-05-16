@@ -1,0 +1,7 @@
+[console_scripts]
+findH = ToolforMe.findH:main
+getmag = ToolforMe.getmag:main
+mCON = ToolforMe.mCON:main
+makeCON = ToolforMe.makeCON:main
+trim = ToolforMe.trim:main
+

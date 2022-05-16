@@ -1,0 +1,12 @@
+setup.py
+ToolforMe/__init__.py
+ToolforMe/findH.py
+ToolforMe/getmag.py
+ToolforMe/mCON.py
+ToolforMe/makeCON.py
+ToolforMe/trim.py
+ToolforMe.egg-info/PKG-INFO
+ToolforMe.egg-info/SOURCES.txt
+ToolforMe.egg-info/dependency_links.txt
+ToolforMe.egg-info/entry_points.txt
+ToolforMe.egg-info/top_level.txt
