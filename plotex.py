@@ -1,5 +1,3 @@
-
-
 from matplotlib import pyplot as plt
 import numpy as np
 from mpl_toolkits.mplot3d.axes3d import Axes3D
@@ -13,7 +11,7 @@ z = np.random.rand(50)
 fig = plt.figure()
  
 # axをfigureに設定する
-ax = Axes3D(fig)
+ax = fig.add_subplot(projection='3d')
  
 # axesに散布図を設定する
 ax.scatter(x, y, c='b')

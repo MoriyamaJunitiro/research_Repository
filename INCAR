@@ -1,0 +1,40 @@
+# --- Numerical accuracy---
+        PREC = Accurate
+        ALGO = Norma
+       ENCUT = 360          # more than suggested ENCUT by potcar.rb
+       EDIFF = 1.0e-06
+       LREAL = .FALSE.
+     ADDGRID = .TRUE.
+# --- Initial charge ---
+#      ICHARG = 1
+
+# --- make use of crystal symmetry ---
+        ISYM = 0            # 0: don't use crystal symmetry
+
+# --- Structure relaxation method ---
+      IBRION = 2            # method of relax
+        ISIF = 3            # 3: full relax, 2: only atomic positions
+        NELM = 100          # Max number of self-consistent loop for electronic state
+         NSW = 99           # Max number of ionic (atomic) relaxations
+
+# --- Smearing method and parameter (Fermi level) ---
+      ISMEAR = 1            # 1: for metals
+       SIGMA = 0.2          # smearing parameter (eV) at Fermi level
+# --- Mixing parameters for metals ---
+        IMIX = 4
+        AMIX = 0.02
+        BMIX = 0.0001
+    AMIX_MAG = 0.08
+    BMIX_MAG = 0.0001
+
+# --- output DOS (density of states) ---
+      LORBIT = 11
+
+# --- output wavefunctions ---
+       LWAVE = .TRUE.
+
+# --- spin polarization (magnetization) ---
+       ISPIN = 2            # 1: No spin polarization, 2: spin polarization
+       MAGMOM =    5*3  1*1  2*3  7*-3  1*-1  6*-3  2*-1  8*3   # Initial magnetic moments (mu_B)
+        KPAR = 4
+       NCORE = 9
