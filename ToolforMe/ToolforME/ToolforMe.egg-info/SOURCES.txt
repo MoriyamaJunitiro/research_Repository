@@ -1,8 +1,9 @@
 setup.py
 ToolforMe/__init__.py
-ToolforMe/change_POSCAR_file.py
+ToolforMe/changePOSCARfile.py
 ToolforMe/findH.py
 ToolforMe/getmag.py
+ToolforMe/makeINCARfile.py
 ToolforMe/trim.py
 ToolforMe.egg-info/PKG-INFO
 ToolforMe.egg-info/SOURCES.txt

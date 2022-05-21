@@ -1,6 +1,7 @@
 [console_scripts]
-POSCARformat = ToolforMe.change_POSCAR_file:main
+POSCARformat = ToolforMe.changePOSCARfile:main
 findH = ToolforMe.findH:main
 getmag = ToolforMe.getmag:main
+makeINCAR = ToolforMe.makeINCARfile:main
 trim = ToolforMe.trim:main
 

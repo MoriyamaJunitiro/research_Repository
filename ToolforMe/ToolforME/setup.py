@@ -10,7 +10,8 @@ if __name__ == "__main__":
                     'findH = ToolforMe.findH:main',
                     'getmag = ToolforMe.getmag:main',
                     'trim = ToolforMe.trim:main',
-                    'POSCARformat = ToolforMe.change_POSCAR_file:main'
+                    'POSCARformat = ToolforMe.changePOSCARfile:main',
+                    'makeINCAR = ToolforMe.makeINCARfile:main'
                     ],
                 },
             )
